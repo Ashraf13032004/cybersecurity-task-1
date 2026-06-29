@@ -45,7 +45,7 @@ nmap -sS 192.168.56.0/24
 ### Save Results
 
 ```bash
-nmap -sS 192.168.56.0/24 -oX scan_result.xml
+nmap -sS 192.168.56.0/24 -oN scan_results.txt
 ```
 
 ## Security Observations
